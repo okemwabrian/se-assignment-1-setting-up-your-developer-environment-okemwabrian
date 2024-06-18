@@ -27,7 +27,7 @@ https://www.microsoft.com/software-download/windows11 click the link
 
 under the "Create Windows 11 installation Media" section and click the download button.
 
-![alt text](image.png)
+![alt text](<windows download page 1.jpg>)
 
 2. Run the Media Creation Tool:
 
@@ -35,27 +35,19 @@ Open the downloaded file and follow the prompts to create a bootable USB drive o
 
 Accept the license terms.
 
-![alt text](image-1.png)
-
+![alt text](<license agreement win 11.png>)
 3. Set Up the Media Creation Tool:
-
 Choose the language, edition, and architecture (64-bit) and press next.
-
-![alt text](image-2.png)
+![alt text](<language chhoses win.png>)
 Select the USB flash drive option and click next.
-![alt text](image-3.png)
-Select the USB drive and click next.
-![alt text](image-4.png)
+![alt text](<media to use select.png>)
 Insert a USB flash drive with at least 8 GB of storage.
 Select the USB drive from the list and click "Next".
-
-![alt text](image-4.png)
+![alt text](<select usb drive.png>)
 The tool will download Windows 11 and create the bootable USB drive.
-
+![alt text](<downloading windows 11.png>)
 After that click finish.
-
-![alt text](image-5.png)
-
+![alt text](<click finish.png>)
 Step 2: Install Windows 11 Using the Installation Media
 
 1.Prepare Your PC:
@@ -73,23 +65,20 @@ keys).
 Set the USB drive as the first boot device.
 Save the changes and exit the BIOS settings.
 Your PC will now boot from the USB drive.
-![alt text](image-6.png)
+![alt text](bootmenu.png)
 Select your language and other preferences, and click "Next".
-![alt text](image-7.png)
+![alt text](<windows setup.png>)
 Accept the license terms and click "Next".
-![alt text](image-8.png)
 Select the "Custom: Install Windows only (advanced)" option.
-![alt text](image-9.png)
+![alt text](<custom installation.png>)
 Select the partition where you want to install Windows 11, and click "Next".
-![alt text](image-10.png)
+![alt text](<drive partition.png>)
 The installation process will begin, and your PC will restart several times.
 After the installation is complete, you'll be prompted to set up your Windows 11
 environment.
-![alt text](image-11.png)
 Follow the on-screen instructions to complete the setup process.
-![alt text](image-12.png)
 You have successfully installed Windows 11 on your PC.
-![alt text](image-13.png)
+![alt text](<windows 11.png>)
 # Windows11InstallationGuide
 # Windows11
 # MicrosoftWindows11
@@ -108,7 +97,7 @@ Steps to Download and Install VS Code on Windows
 1. Download VS Code:
 Open a web browser and navigate to the VS Code download page: https://code.visualstudio.com/
 Click on the "Download" button for Windows.
-![alt text](image-6.png)
+![alt text](<VS Code download page.png>)
 2. Run the Installer :
 Open the downloaded file (VSCodeSetup.exe) and run the installer.
 The installer wizard will appear.
@@ -116,31 +105,37 @@ The installer wizard will appear.
 3. Installation Prompt:
 
 Accept the license agreement and click next.
-![alt text](image-7.png)
+![alt text](<vscode license agreement.png>)
 Choose the location where you want the VS Code installation to be kept. Accept the default location and click next.
-![alt text](image-8.png)
+![alt text](<vscode location.png>)
 Select the components you want to install. You can choose to install the 32-bit or 64
 bit version of VS Code. Click next.
-![alt text](image-9.png)
+
 Select whether you want to add VS Code to your PATH environment variable. Click next.
-![alt text](image-10.png)
+
 Select whether you want to create a desktop icon for VS Code. Click next.
-![alt text](image-11.png)
+![alt text](<additional features icon.png>) 
+
+ Installation Progress :
+ click install
+ The installation process will begin, and you'll see a progress bar.
+ ![alt text](<installing vscode.png>)
+
 4. Installation Complete :
 The installation is complete. Click finish to close the installer wizard.
-![alt text](image-12.png)
+![alt text](<vscode finish installation.png>)
 # VSCode
 # VSCodeInstallationGuide
 
 Set Up Version Control System:
 Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
-sample Repo with git ignore: https://github.com/Johnnytash/this-is-a-test-repo.git.
+sample Repo with git ignore: https://github.com/okemwabrian/this-is-a-test-repo.git.
 
 Step 1: Download and Install Git
 Open a web browser and navigate to the Git download page: https://git-scm.com/downloads
 Click on the "Download" button for Windows.
-![alt text](image-8.png)
+![alt text](<git download page.png>)
 
 2. Run the Installer:
 
@@ -148,19 +143,19 @@ Open the downloaded Git installer.
 Run the Git installer (Git-2.38.0-64-bit.exe).
 The installer wizard will appear.
 Accept the license agreement and click next.
-![alt text](image-9.png)
+![alt text](<git installer.png>)
 Choose the location where you want the Git installation to be kept. Accept the default location and click next
-![alt text](image-10.png)
+![alt text](<git location.png>)
 Select the components you want to install. You can choose to install the Git Bash, Git GUI,
 and other components. Click next.
-![alt text](image-11.png)
+![alt text](<git components.png>)
 Select whether you want to add Git to your PATH environment variable. Click next.
-![alt text](image-12.png)
+
 Select whether you want to create a desktop icon for Git. Click next.
-![alt text](image-13.png)
+
 3. Installation Complete :
 The installation is complete. Click finish to close the installer wizard.
-![alt text](image-14.png)
+![alt text](<git finish installation.png>)
 
 Verify the Installation:
 
@@ -168,53 +163,66 @@ Open Command Prompt or Git Bash and run
 git --version
 
 This should display the version of Git installed on your system.
-![alt text](image-15.png).
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ git version
+git version 2.45.2.windows.1
+
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$
+
 Step 2: Configuring Git
 
 Open a terminal or command prompt (Git Bash).
 Set your username and email: [git config --global user. name "Your Name"
 git config --global user.email "your_email@example.com"]
-![alt text](image-16.png)
+
 Step 3: Create a GitHub Account
 Open a web browser and navigate to GitHub: https://github.com
 Click on the "Sign up" button.
 Fill in the required information, such as your username, email, and password.
 Click on the "Create account" button.
-![alt text](image-17.png)
+
 Verify your email address by clicking on the verification link sent to your email.
 Step 4: Initialize a Git Repository
 Open a terminal or command prompt (Git Bash).
 Navigate to the directory where you want to create your Git repository.
 Run the command: git init
 This will create a new Git repository in the current directory.
-![alt text](image-18.png)
+![alt text](<create repository.png>)
 Step 5: Create a New File and Add it to the Repository
 Create a new file in the repository directory using a text editor or IDE.
 Add the file to the Git repository using the command: git add <file_name>
-![alt text](image-19.png)
+
 Commit the changes using the command: git commit -m "Initial commit"
-![alt text](image-20.png)
+
 Step 6: Link the Local Repository to GitHub
 Create a new repository on GitHub by clicking on the "New" button.
 Fill in the required information, such as the repository name and description.
 Click on the "Create repository" button.
 Copy the repository URL.
-![alt text](image-21.png)
+
 In the terminal or command prompt, navigate to the local repository directory.
 Run the command: git remote add origin <repository_URL>
-![alt text](image-22.png)
+
 Run the command: git push -u origin master
-![alt text](image-23.png)
+
 This will push the local repository to GitHub and link the two repositories.
 Step 7: Verify the Repository on GitHub
 Open a web browser and navigate to GitHub.
 Verify that the repository has been created and the file has been uploaded.
-![alt text](image-24.png)
+
 Congratulations! You have successfully set up a Git repository and linked it to GitHub.
-![alt text](image-25.png)
+
 Open Command Prompt or Git Bash and run
 git --version
 This should display the version of Git installed on your system.
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ git version
+git version 2.45.2.windows.1
+
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$
+
 
 Install Necessary Programming Languages and Runtimes: Python, Dart, and Flutter SDK
 Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
@@ -224,31 +232,41 @@ INSTALLING PYTHON step1: Download python installer
 Go to https://www.python.org/downloads/
 Download the latest version of Python for Windows.
 Select the installer that corresponds to the version of Python you want to install.
-![alt text](image-10.png)
+![alt text](<python landing page.png>)
 Step 2: Run the Installer
 Run the installer you downloaded.
 Select the installation location and click "Next".
-![alt text](image-11.png)
+
 Select the components you want to install and click "Next".
-![alt text](image-12.png)
+![alt text](<install python.jpg>)
 Select the Start menu folder and click "Next".
-![alt text](image-13.png)
+
 Select whether to add Python to the PATH and click "Install".
-![alt text](image-14.png)
+
 Wait for the installation to complete.
 Step 3: Verify Python Installation
 Open Command Prompt or Git Bash and run
 python --version
 This should display the version of Python installed on your system.
-![alt text](image-15.png)
+
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ python --version
+Python 3.12.4
+
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$
+
+
 Install Dart and Flutter SDK
+
 Step 1: Download Flutter SDK
 Go to https://flutter.dev/docs/get-started/install/
 Download the Flutter SDK for Windows.
 Select the installation location and click "Next".
-![alt text](image-16.png)
+![alt text](<dart zip file.png>)
 Step 2: Extract the Flutter SDK
 Extract the Flutter SDK to the selected location.
+![alt text](<dart extract.png>)
 Step 3: Update the System Environment Variables
 Right-click on "Computer" or "This PC" and select "Properties".
 Click on "Advanced system settings" on the left side.
@@ -261,14 +279,24 @@ Step 4: Verify Flutter Installation
 Open Command Prompt or Git Bash and run
 flutter doctor
 This should display the Flutter doctor report, which checks for any issues with your Flutter installation.
-![alt text](image-17.png)
+Verification of dart
+Open Command Prompt or Git Bash and run
+dart --version
+This should display the version of Dart installed on your system.
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ dart --version
+Dart VM version: 2.19.1 (Wed Sep 14 14:31
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ flutter doctor
+Flutter is installed and configured correctly.
+okemw@DESKTOP-3BE5PF9 MINGW64 /
 
 DOWNLOADING DART
 Step 1: Download Dart SDK
 Go to https://dart.dev/get-dart
 Download the Dart SDK for Windows.
 Select the installation location and click "Next".
-![alt text](image-18.png)
+![alt text](<dart zip file.png>)
 Step 2: Extract the Dart SDK
 Extract the Dart SDK to the selected location.
 Step 3: Update the System Environment Variables
@@ -277,15 +305,22 @@ Click on "Advanced system settings" on the left side.
 Click on "Environment Variables".
 Under "System Variables", scroll down and find the "Path" variable, then click "Edit"
 Click "New" and add the path to the Dart SDK's bin folder (e.g., C
-\dart-sdk\bin).
+\flutter-sdk\bin).
 Click "OK" to close all the windows.
 Step 4: Verify Dart Installation
 Open Command Prompt or Git Bash and run
-dart --version
+flutter --version
 This should display the version of Dart installed on your system.
-![alt text](image-19.png)
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ flutter --version
+Flutter 3.22.2 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 761747bfc5 (13 days ago) • 2024-06-05 22:15:13 +0200
+Engine • revision edd8546116
+Tools • Dart 3.4.3 • DevTools 2.34.3
 
-nstall Package Managers:
+
+
+install Package Managers:
 If applicable, install package managers like pip (Python).
 
 Python (pip)
@@ -294,16 +329,27 @@ check the python version in git by running the command
 python --version
 
 it will display the python version
-![alt text](image-20.png)
-![alt text](image-21.png)
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ python --version
+Python 3.12.4
+
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+
 
 install pip
-python -m ensurepip
-![alt text](image-22.png)
 
+python -m ensurepip
+
+if  pip is installed this will be displayed:
+
+okemw@DESKTOP-3BE5PF9 MINGW64 /
+$ python -m ensurepip
+Looking in links: c:\Users\okemw\AppData\Local\Temp\tmpsha5o21w
+Requirement already satisfied: pip in c:\users\okemw\appdata\local\programs\python\python312\lib\site-packages (24.0)
 
 
 Configure a Database (MySQL):
+
 Download and install MySQL database.
 https://dev.mysql.com/downloads/windows/installer/5.7.html
 
@@ -312,26 +358,26 @@ https://dev.mysql.com/downloads/windows/installer/5.7.html
 Go to the MySQL Community Downloads page.https://dev.mysql.com/downloads/installer/
 Download the latest version of MySQL for Windows.
 Select the installer that corresponds to the version of MySQL you want to install.
-![alt text](image-11.png)
+![alt text](<msql download page.png>)
 2. Install MySQL
 Run the installer and follow the installation wizard's instructions.
 Select the installation location and click "Next".
-![alt text](image-12.png)
+
 Select the components you want to install and click "Next".
-![alt text](image-13.png)
+
 Select the installation type and click "Next".
-![alt text](image-14.png)
+![alt text](<msql type.png>)
 Select the root password and click "Next".
-![alt text](image-15.png)
+
 Select the default character set and click "Next".
-![alt text](image-16.png)
+
 Select the Windows service and click "Next".
-![alt text](image-17.png)
+![alt text](<windows services.png>)
 Click "Execute" to start the installation.
-![alt text](image-18.png)
+
 Finish
 Finally, click "Finish" to complete the installation
-![alt text](image-19.png)
+
 Set Up Development Environments and Virtualization (Optional):
 Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 Docker
@@ -345,7 +391,7 @@ Create a virtual machine with the desired operating system and configuration.
 Install the necessary dependencies and tools within the virtual machine.
 Install Python and pip
 python -m ensurepip
-![alt text](image-22.png)
+
 
 
 Explore Extensions and Plugins:
@@ -370,19 +416,7 @@ PyCharm Plugins PyCharm is a popular IDE for Python development. Here are some e
 more.
 6. Python Testing: Supports testing Python code with frameworks like unittest and pytest.
 7. Python Profiler: Profiles Python code to identify performance bottlenecks.
-![alt text](image-23.png)
-![alt text](image-24.png)
-![alt text](image-25.png)
-![alt text](image-26.png)
-![alt text](image-27.png)
-![alt text](image-28.png)
-![alt text](image-29.png)
-![alt text](image-30.png)
-![alt text](image-31.png)
-![alt text](image-32.png)
-![alt text](image-33.png)
-![alt text](image-34.png)
->>
+
 Reflection on Challenges
 Challenges Faced:
 1. **Setting up the environment**: Installing Python, pip, and necessary dependencies was a challenge,
@@ -394,22 +428,6 @@ Solutions:
 Python: Added Python to the PATH environment variable.
 Docker: Followed detailed tutorials and referred to Docker documentation.
 MySQL: Used MySQL official documentation and community forums for troubleshooting.
-![alt text](image-35.png)
-![alt text](image-36.png)
-![alt text](image-37.png)
-![alt text](image-38.png)
-![alt text](image-39.png)
-![alt text](image-40.png)
-![alt text](image-41.png)
-![alt text](image-42.png)
-![alt text](image-43.png)
-![alt text](image-44.png)
-![alt text](image-45.png)
-![alt text](image-46.png)
-![alt text](image-47.png)
-![alt text](image-48.png)
-![alt text](image-49.png)
-
 
 
 Document Your Setup:
